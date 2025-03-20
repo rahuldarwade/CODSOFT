@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background: #e3f2fd;
+            color: #333;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            background: #1e88e5;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        .btn {
+            background: #0d47a1;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #1565c0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0d47a1;
+            padding: 15px 20px;
+        }
+        .logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?technology,futuristic') no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #040404;
+        }
+        .hero-content h1 {
+            font-size: 36px;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background: linear-gradient(90deg, #42a5f5, #1e88e5);
+            padding: 20px;
+            color: #fff;
+        }
+        .feature-box {
+            font-size: 18px;
+        }
+        .about, .services {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .service-box {
+            display: inline-block;
+            background: #bbdefb;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0d47a1;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>+1 234 567 890 | support@website.com</p>
+            <button class="btn">Request a Consult</button>
+        </div>
+        <nav>
+            <div class="logo">WebBrand</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Innovative Digital Solutions</h1>
+            <p>We help businesses grow with creative strategies and technology-driven solutions.</p>
+            <button class="btn">Learn More</button>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature-box">Launch Your Business</div>
+        <div class="feature-box">24/7 Online Support</div>
+        <div class="feature-box">Efficient Time Management</div>
+    </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>With over 10 years of experience, we specialize in providing top-notch digital solutions.</p>
+        <button class="btn">Read More</button>
+    </section>
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">User Experience Design</div>
+        <div class="service-box">Creative Web Design</div>
+        <div class="service-box">SEO & Digital Marketing</div>
+    </section>
+    <footer>
+        <p>&copy; 2025 WebBrand. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

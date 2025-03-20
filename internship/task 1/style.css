@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+}
+
+/* Container for centered content */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 80px 0;
+    color: white;
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* About Section */
+#about {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#about .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.1);
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    background-color: #2575fc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #6a11cb;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    background: #2575fc;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.project-card p {
+    font-size: 1em;
+    color: #555;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Resume Section */
+#resume {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 0;
+    text-align: center;
+}
+
+#resume a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #2575fc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#resume a:hover {
+    background-color: #6a11cb;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #222;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #ddd;
+}
+
+/* Footer Section */
+footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links-footer {
+    margin-top: 20px;
+}
+
+.social-links-footer a {
+    background-color: #2575fc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.social-links-footer a:hover {
+    background-color: #6a11cb;
+}
